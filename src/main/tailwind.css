@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@source "./resources/templates";
+@source "./resources/static/js";
+
+@theme {
+  --color-sregep-primary: var(--primary);
+  --color-sregep-bg: var(--background);
+  --color-sregep-surface: var(--surface);
+  --color-sregep-text: var(--text);
+  --color-sregep-muted: var(--muted);
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+:root {
+  color-scheme: light;
+
+  --primary: #3D6957;
+  --background: #F5F5EF;
+  --surface: #FFFFFF;
+  --text: #253D35;
+  --muted: #718078;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --primary: #8BAE98;
+  --background: #151C19;
+  --surface: #222E28;
+  --text: #E5ECE6;
+  --muted: #9BAAA0;
+}
