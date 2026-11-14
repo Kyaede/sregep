@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" th:href="@{/css/app.css}" />
+    <title>Sregep</title>
+</head>
+
+<body>
+    <!-- <h1 class="text-3xl font-bold text-sregep-text">Welcome to Sregep!</h1> -->
+    <div class="flex flex-col">
+        <div class="basis-full bg-sregep-primary text-white content-center m-3.5 rounded-2xl p-7">
+            <h2>Saturday, 14 November</h2>
+            <p>13:29</p>
+            <div class="flex flex-row gap-3 items-center justify-center">
+                <div class="text-center">
+                    <div>Su</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+                <div class="text-center">
+                    <div>Mo</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+                <div class="text-center">
+                    <div>Tu</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+                <div class="text-center">
+                    <div>We</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+                <div class="text-center">
+                    <div>Th</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+                <div class="text-center">
+                    <div>Fr</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+                <div class="text-center">
+                    <div>Sa</div>
+                    <div class="bg-sregep-surface text-sregep-text rounded-md opacity-70 p-3 pb-5 pt-3.5">19</div>
+                </div>
+            </div>
+        </div>
+        <div class="basis-full bg-sregep-surface text-sregep-text content-center m-3.5 rounded-2xl p-7 pt-2 pb-2">
+            <input type="text" placeholder="Add task for today"
+                class="w-auto px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-sregep-primary" />
+            <button class="rounded-lg bg-sregep-primary px-4 py-2 text-white hover:bg-sregep-muted">
+                OTW
+            </button>
+        </div>
+        <div class="basis-full bg-sregep-surface text-sregep-text content-center m-3.5 rounded-2xl p-7 pt-2 pb-2">
+            <p>Your productivity starts here.</p>
+            <h2>Today</h2>
+            <p>Manage your daily activities.</p>
+            <h2>Pomodoro</h2>
+            <p>Stay focused and take breaks.</p>
+        </div>
+    </div>
+</body>
+
+</html>
