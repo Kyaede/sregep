@@ -1,0 +1,26 @@
+{
+  "name": "sregep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/main/tailwind.css -o ./src/main/resources/static/css/app.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/main/tailwind.css -o ./src/main/resources/static/css/app.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyaede/sregep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyaede/sregep/issues"
+  },
+  "homepage": "https://github.com/Kyaede/sregep#readme",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}
