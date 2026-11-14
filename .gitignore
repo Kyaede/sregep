@@ -48,3 +48,6 @@ Thumbs.db
 ### Local configuration ###
 application-local.properties
 application-secret.properties
+
+### node_module seberat biji hytam Pr43030 ###
+node_modules/
